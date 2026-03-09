@@ -96,5 +96,5 @@ sudo /etc/init.d/apache2 restart
 ## Test du déploiement
 ### Sur la navigateur 
 Accéder à l'URL : 
-https://\<nomprojet\>.\<votredomaine\>.\<tld\>
+https://\<nomprojet\>.\<votredomaine\>.\<tld\>/_/
 
