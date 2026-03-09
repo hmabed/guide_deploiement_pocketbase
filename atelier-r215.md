@@ -36,7 +36,9 @@ et choisir le numéro du site à certifier
    
 ``` bash
 cd /var/www
-mkdir <nom_projet>
+sudo mkdir <nom_projet>
+sudo chown -R etudiant:etudiant <nom_projet>
+sudo chmod -R 755 <nom_projet>
 cd <nom_projet>
 wget https://github.com/pocketbase/pocketbase/releases/download/v0.36.6/pocketbase_0.36.6_linux_amd64.zip
 unzip pocketbase_0.36.6_linux_amd64.zip -d .
